@@ -23,7 +23,7 @@ defmodule SecureClient.Mixfile do
   end
 
   def package do
-    [name: :http_client,
+    [name: :secure_client,
      maintainers: ["Riley Trautman", "asonix.dev@gmail.com"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/asonix/secure-client-elixir"}]
