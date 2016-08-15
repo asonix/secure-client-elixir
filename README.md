@@ -1,6 +1,9 @@
 # SecureClient
 
-Secure encoding and decoding for [HTTPClient](https://github.com/asonix/http-client-elixir)
+Secure encoding and decoding for
+[HTTPClient](https://github.com/asonix/http-client-elixir) using
+[Cloak](https://github.com/danielberkompas/cloak)
+([docs](https://hexdocs.pm/cloak/Cloak.html)) for Encryption and decryption.
 
 ## Installation
 
@@ -19,6 +22,10 @@ Secure encoding and decoding for [HTTPClient](https://github.com/asonix/http-cli
       [applications: [:secure_client]]
     end
     ```
+
+## Configuration
+
+See [Cloak](https://github.com/danielberkompas/cloak)
 
 ## Usage
 
